@@ -9,7 +9,7 @@ body {
     }
 
     .navbar-brand img {
-      width: 120px;
+      width: 140px;
     }
 
     .navbar-nav .nav-link {
@@ -90,7 +90,35 @@ body {
         font-size: 1.8rem;
         padding: 0 1rem;
       }
+      .homepage-header{
+        margin-top: -120px;
+        font-size: 28px !important;
+        margin-bottom: 40px;
+      }
+      .video-background {
+      height: 70vh;
+      width: 100%;  
+      
     }
+    .homepage-pg {
+      text-align: left !important;
+      padding: 8px;
+    }
+    .eox{
+      text-align: right !important;
+      padding: 12px;
+      margin-top: 50px !important;
+    }
+    .experience-box{
+      margin-top: -100px !important;
+    }
+    }
+
+
+
+
+
+
 .about{
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -214,7 +242,7 @@ body {
     }
     @media (max-width: 576px) {
       .brand-logo {
-        max-height: 50px;
+        max-height: 200px;
         margin-bottom: 15px;
       }
     }
