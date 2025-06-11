@@ -88,15 +88,15 @@ body {
       }
       .video-overlay-content h1 {
         font-size: 1.8rem;
-        padding: 0 1rem;
+        /* padding: 0 0.5rem; */
       }
       .homepage-header{
-        margin-top: -120px;
+        margin-top: -140px;
         /* font-size: 28px !important; */
         margin-bottom: 40px;
       }
       .video-background {
-      height: 76vh;
+      height: 72vh;
       width: 100%;  
       
     }
@@ -114,11 +114,6 @@ body {
       margin-top: -100px !important;
     }
     }
-
-
-
-
-
 
 .about{
   margin-top: 2rem;
@@ -141,6 +136,7 @@ body {
   width: 80px;
   height: 4px;
   background-color: #276EF1;
+  /* margin-top: -80px; */
 }
 
 .experience-box {
@@ -407,4 +403,86 @@ footer {
   color: white;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
+}
+
+
+.product-header {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.product-header_img {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.product-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1662f6;
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  border-radius: 4px;
+}
+
+.product-header p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  border-radius: 4px;
+}
+
+
+.product-header .underline {
+  width: 60px;
+  height: 4px;
+  background-color: #1662f6;
+  margin: 4px auto 0;
+  border-radius: 2px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-bar {
+  width: 90%; /* wider for small screens */
+  max-width: 500px; /* prevents it from being too wide on desktops */
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #1662f6;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 8px #1662f6;
+  border-color: #1662f6;
+}
+
+.card-img-top {
+border-bottom: 1px solid #ddd;
+}
+
+.tblDesign{
+  font-size: 14px;
+}
+
+.pumpText{
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.motorPumpViewDetails{
+  font-size: 12px;
+
+}
+.table td, .table th{
+  padding: 4px !important;
+  color: #3d3d3d !important;
+
 }

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUTURION - Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap & Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    <img src="images/logo.png" alt="FUTURION logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link active" href="/product.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="video/home background2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay-content">
+      <h1 class="homepage-header"><b> Our Products</b></h1>
+      <p class="homepage-pg text-white text-center">
+    Quality engineering prodcuts from leading global manufacturers
+      </p>
+    </div>
+ <!-- button -->
+  <div class="text-center mt-4">
+  <a href="#services" class="btn explore-btn">
+    Explore Our products <i class="fas fa-arrow-right ml-2"></i>
+  </a>
+</div>
+
+  </div>
+
+<!------------------------------------------------------------>
+  <section class="product-header text-center">
+  <h1>Engineering Products</h1>
+  <p>We offer a wide range of high-quality products for various engineering applications</p>
+  <div class="underline"></div>
+</section>
+
+
+
+<!------------------------------------------------>
+<div class="search-container mt-4">
+  <input
+    type="text"
+    class="search-bar"
+    placeholder="Search products..."
+    oninput="filterProducts(this.value)"
+  />
+</div>
+
+<br />
+<div class="container mt-4">
+  <div class="row"  id="productContainer">
+    <!-- Card 1 -->
+    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-4 product-card" data-name="DISMANTLING JOINTS">
+      <div class="card shadow-sm rounded-3 h-100">
+        <img src="images/products/1.jpg" alt="Industrial Pumps">
+        <div class="card-body">
+
+          <p class="text-primary font-weight-semibold mb-1">Double flaged butterfly valves</p>
+          <h5 class="card-title font-weight-bold text-dark">DISMANTLING JOINTS</h5>
+          <p class="card-text text-muted small">
+            DOUBLE FLAGED BUTTERFLY VALVES & DISMANTLING JOINTS High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.
+          </p>
+          <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4  product-card" data-name="GATE VALVES">
+      <div class="card shadow-sm rounded-3 h-100">
+        <img src="images/products/2.jpg" alt="Industrial Pumps">
+        <div class="card-body">
+          <p class="text-primary font-weight-semibold mb-1">Resilient Seated </p>
+          <h5 class="card-title font-weight-bold text-dark">GATE VALVES</h5>
+          <p class="card-text text-muted small">
+           RESILIENT SEATED GATE VALVES High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.
+          </p>
+          <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4 product-card" data-name="JOINT RIGID TYPE">
+      <div class="card shadow-sm rounded-3 h-100">
+        <img src="images/products/3.jpg" alt="Industrial Pumps">
+        <div class="card-body">
+          <p class="text-primary font-weight-semibold mb-1">Three Flange Dismatling</p>
+          <h5 class="card-title font-weight-bold text-dark">JOINT RIGID TYPE </h5>
+          <p class="card-text text-muted small">
+            THREE FLANGE DISMANTLING JOINT RIGID TYPE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.
+          </p>
+          <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 product-card" data-name="CONTROL VALVE">
+      <div class="card shadow-sm rounded-3 h-100">
+        <img src="images/products/4.jpg" alt="Industrial Pumps">
+        <div class="card-body">
+          <p class="text-primary font-weight-semibold mb-1">Plunger Flow</p>
+          <h5 class="card-title font-weight-bold text-dark">CONTROL VALVE</h5>
+          <p class="card-text text-muted small">
+            PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.
+          </p>
+          <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+
+<!-- Product Page Content -->
+ <br />
+ <br />
+<hr>
+
+<!------------------------------------------------------------>
+<section class="product-header text-center">
+  <h1> Water Pumps and Pressure Groups</h1>
+  <p>We offer a wide range of high-quality Water Pumps and Pressure Pumps</p>
+  <div class="underline"></div>
+</section>
+
+
+
+<!------------------------------------------------>
+<!-- <div class="search-container mt-4">
+  <input
+    type="text"
+    class="search-bar"
+    placeholder="Search products..."
+    oninput="filterProducts(this.value)"
+  />
+</div> -->
+
+
+<section class="py-5 ">
+  <div class="container">
+    <div class="row py-4">
+      <!-- Product Card 1 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img src="images/products/pump1.jpg" class="card-img-top" alt="Product 1">
+
+          <div class="card-body">
+            <h5 class="card-title">SERIE CP</h5>
+                        
+            <table class="table table-bordered tblDesign" width="100%" cellpadding="4" cellspacing="4" border="1">
+
+              <tr>
+                <td bgcolor="#ebebeb">Q max</td>
+                <td>700 m<sup>3</sup>/h</td>
+                <td>3080 GPM</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#ebebeb">H max</td>
+                <td>35 m</td>
+                <td>115 Ft</td>
+              </tr>
+              </table>
+            <p class="card-text text-muted small">Horizontal Centrigugal Pumps Split Chamber</p>
+                      <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img src="images/products/pump2.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">SERIE RNI</h5>
+              <table class="table table-bordered tblDesign" width="100%" cellpadding="4" cellspacing="4" border="1">
+              <tr>
+                <td bgcolor="#ebebeb">Q max</td>
+                <td>700 m<sup>3</sup>/h</td>
+                <td>3080 GPM</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#ebebeb">H max</td>
+                <td>35 m</td>
+                <td>115 Ft</td>
+              </tr>
+              </table>
+            <p class="card-text text-muted small">Horizontal Centrigugal Pumps Normalized Axial Aspiration</p>
+                    <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img src="images/products/pump3.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">SERIE APM</h5>
+            <table class="table table-bordered tblDesign" width="100%" cellpadding="4" cellspacing="4">
+
+              <tr>
+                <td bgcolor="#ebebeb">Q max</td>
+                <td>700 m<sup>3</sup>/h</td>
+                <td>3080 GPM</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#ebebeb">H max</td>
+                <td>35 m</td>
+                <td>115 Ft</td>
+              </tr>
+              </table>
+              <p class="card-text text-muted small">Multicellular High Pressure Centrigugal Pumps</p>
+          <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img src="images/products/pump4.jpg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">SERIE GNI</h5>
+              <table class="table table-bordered tblDesign" width="100%" cellpadding="4" cellspacing="4" border="1">
+
+              <tr>
+                <td bgcolor="#ebebeb">Q max</td>
+                <td>700 m<sup>3</sup>/h</td>
+                <td>3080 GPM</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#ebebeb">H max</td>
+                <td>35 m</td>
+                <td>115 Ft</td>
+              </tr>
+              </table>
+            <p class="card-text text-muted small">Standared High Monoblock Pumps</p>
+                      <a href="#" class="text-primary font-weight-semibold text-decoration-none">
+            View Details
+            <i class="bi bi-arrow-right ml-1"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+ <script>
+  // Add active class on click
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+      document.querySelectorAll('.navbar-nav .nav-link').forEach(item => item.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+  function filterProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll(".product-card");
+
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      if (name.includes(keyword)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+
+
+
+</body>
+</html>
